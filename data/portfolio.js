@@ -83,7 +83,7 @@ const PORTFOLIO_DATA = {
     {
       "company": "Kolibri Games (Ubisoft Mobile)",
       "role": "Software Engineer — Unity & C#",
-      "period": "Jan 2025 — Present",
+      "period": "Jan 2025 — Dec 2025",
       "location": "Berlin, Germany",
       "logo": "assets/kolibri.png",
       "color": "#f59e0b",
@@ -166,129 +166,200 @@ const PORTFOLIO_DATA = {
     }
   ],
   "projects": [
-    {
-      "title": "Idle Miner Tycoon",
-      "subtitle": "Mobile Tycoon — Live Game",
-      "company": "Kolibri Games (Ubisoft Mobile)",
-      "period": "Jan 2025 — Present",
-      "role": "Feature Developer, Tool Developer",
-      "description": "A live mobile simulation game where players build and expand their mining empire. With 100K+ daily active users, IMT is a large-scale live product requiring continuous feature development, LiveOps support, and backend integration.",
-      "thumbnail": "assets/projects/imt.jpg",
-      "platforms": ["Android", "iOS"],
-      "tags": ["Unity", "C#", "ASP.NET", "LiveOps", "Feature Development"],
-      "links": [
-        { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.kolibrigames.idleminertycoon" }
-      ],
-      "featured": true
-    },
-    {
-      "title": "Museum Keeper",
-      "subtitle": "PC/Console Tycoon — Steam Release",
-      "company": "Red Thorn Interactive",
-      "period": "Jan 2024 — Dec 2024",
-      "role": "System Architect, Lead Gameplay Programmer, Backend Developer, Project Manager",
-      "description": "A museum management simulation where players excavate ruins, manage staff, theme exhibits, fight off creatures, and outsmart thieves. Released on Steam to strong positive reviews. Architected the full game and backend system.",
-      "thumbnail": "assets/projects/museum.jpg",
-      "platforms": ["Windows", "macOS", "Linux", "Nintendo Switch"],
-      "tags": ["Godot", "GDScript", "ASP.NET Core", "System Architecture", "Project Management"],
-      "links": [
-        { "label": "Steam", "url": "https://store.steampowered.com/app/2708780/Museum_Keeper/" }
-      ],
-      "featured": true
-    },
-    {
-      "title": "Kingdom of the Cosmos",
-      "subtitle": "Bullet Hell — Multi-Platform (In Development)",
-      "company": "Red Thorn Interactive",
-      "period": "2023 — Present",
-      "role": "System Architect, Gameplay Programmer, GPU Programmer, Backend Developer",
-      "description": "An ambitious bullet hell game targeting a wide range of platforms. Responsible for system architecture, complex gameplay systems, GPU-level optimizations, and backend development.",
-      "thumbnail": "assets/projects/cosmos.jpg",
-      "platforms": ["Windows", "macOS", "Linux", "Nintendo Switch", "PS5", "Xbox", "Android", "iOS"],
-      "tags": ["Unity", "C#", "GPU Programming", "System Architecture", "Backend"],
-      "links": [],
-      "featured": true
-    },
-    {
-      "title": "AlexanderBall: A Countryball Tale",
-      "subtitle": "Play-Pause RTS / Grand Strategy — Steam",
-      "company": "Red Thorn Interactive",
-      "period": "Oct 2022 — Feb 2024",
-      "role": "System Architect, Lead Gameplay Programmer, Backend Developer, Project Manager",
-      "description": "A unique strategy game blending historical conquest with Countryball humor. Players ascend to the Macedonian throne, recruit quirky armies, and build an empire. Combines Play-Pause, Turn-Based, and Grand Strategy mechanics.",
-      "thumbnail": "assets/projects/alexander.jpg",
-      "platforms": ["Windows", "macOS", "Linux"],
-      "tags": ["Unity", "C#", "Jenkins", "Project Management", "Grand Strategy"],
-      "links": [
-        { "label": "Steam", "url": "https://store.steampowered.com/app/2379780/AlexanderBall_A_Countryball_Tale/" }
-      ],
-      "featured": false
-    },
-    {
-      "title": "SAFS — Small Arms Firing Simulator",
-      "subtitle": "Military VR Training System",
-      "company": "Bangladesh Army",
-      "period": "Jan 2021 — Jul 2021",
-      "role": "Lead Unity Developer",
-      "description": "A real-time multiplayer VR training system for Bangladesh Navy officers. 9 distinct training scenes, support for 16 simultaneous users, haptic feedback integration (bHaptics TactSuit, TactVisor), and multiplayer via Photon. Designed for HTC Vive Pro and Meta Quest 2.",
-      "thumbnail": "assets/projects/safs.jpg",
-      "platforms": ["HTC Vive Pro", "Meta Quest 2"],
-      "tags": ["Unity", "VR", "Photon", "Haptics", "Military Simulation"],
-      "links": [],
-      "featured": false
-    },
-    {
-      "title": "Fire Awareness VR Simulator",
-      "subtitle": "Enterprise VR Training — Achievr (Australia)",
-      "company": "Brain Station 23",
-      "period": "Oct 2021",
-      "role": "Lead Unity Developer",
-      "description": "An immersive VR training simulator for fire safety and emergency response in office environments. Built using Unity, Blender, Maya, and Unity XR Interaction Toolkit for Meta Quest 2. Teaches users proper fire response techniques in a realistic virtual environment.",
-      "thumbnail": "assets/projects/fire.jpg",
-      "platforms": ["Meta Quest 2"],
-      "tags": ["Unity", "VR", "Blender", "Maya", "XR Interaction Toolkit"],
-      "links": [],
-      "featured": false
-    },
-    {
-      "title": "Silent Scream",
-      "subtitle": "Horror / Stealth — Steam",
-      "company": "Brain Station 23",
-      "period": "Jul 2022 — Sep 2022",
-      "role": "Gameplay Programmer",
-      "description": "A gripping horror game with stealth and cooking mechanics. Contributed to core gameplay systems, mechanics, and atmospheric tension through code.",
-      "thumbnail": "assets/projects/silent.jpg",
-      "platforms": ["Windows", "macOS", "Linux"],
-      "tags": ["Unity", "C#", "Horror", "Stealth"],
-      "links": [
-        { "label": "Steam", "url": "https://store.steampowered.com/app/1765850/SILENT_SCREAM/" }
-      ],
-      "featured": false
-    },
-    {
-      "title": "Project L.I.F.E.",
-      "subtitle": "VR Space Game — NASA Space Apps 2019 (Top 10 Global)",
-      "company": "CVIS Research Lab, BRAC University",
-      "period": "Oct 2019",
-      "role": "Developer",
-      "description": "A VR game challenging players to survive on Mars, submitted to NASA Space Apps Challenge 2019. Achieved Top 10 position globally. Uses NASA open data to provide an interactive and educational planetary survival experience.",
-      "thumbnail": "assets/projects/life.jpg",
-      "platforms": ["VR", "Cross-Platform"],
-      "tags": ["Unity", "VR", "NASA", "Space Apps", "Education"],
-      "links": [],
-      "featured": false
-    }
-  ],
-  "education": [
-    {
-      "degree": "Bachelor of Science in Computer Science",
-      "institution": "BRAC University",
-      "period": "Sep 2016 — Dec 2020",
-      "location": "Dhaka, Bangladesh",
-      "note": "Degree awarded March 20, 2023",
-      "logo": "assets/bracu.png"
-    }
-  ],
+  {
+    "title": "Idle Miner Tycoon",
+    "subtitle": "Mobile Tycoon — Live Game",
+    "company": "Kolibri Games (Ubisoft Mobile)",
+    "period": "Jan 2025 — Present",
+    "role": "Feature Developer, Tool Developer",
+    "description": "Working on a large-scale live mobile game with 100K+ daily active users. Responsible for feature development, LiveOps systems, internal tools, and backend integration to support continuous content delivery and player engagement.",
+    "thumbnail": "assets/projects/imt.jpg",
+    "platforms": ["Android", "iOS"],
+    "tags": ["Unity", "C#", "LiveOps", "Backend Integration"],
+    "links": [
+      { "label": "App Store", "url": "https://apps.apple.com/us/app/idle-miner-tycoon-gold-digger/id1116645064" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "The Starfallen Prince",
+    "subtitle": "Bullet Heaven Roguelike — Steam",
+    "company": "Red Thorn Interactive",
+    "period": "2024 — Present",
+    "role": "Lead Developer, System Architect",
+    "description": "A fast-paced bullet heaven roguelike set in a fallen feudal sci-fi world. Leading full development, including gameplay systems, architecture, and performance optimization for PC platforms.",
+    "thumbnail": "assets/projects/starfallen.jpg",
+    "platforms": ["Windows", "macOS", "Linux"],
+    "tags": ["Unity", "C#", "Roguelike", "System Architecture"],
+    "links": [
+      { "label": "Steam", "url": "https://store.steampowered.com/app/4221840/The_Starfallen_Prince/" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "Museum Keeper",
+    "subtitle": "PC/Console Tycoon — Steam",
+    "company": "Red Thorn Interactive",
+    "period": "Jan 2024 — Dec 2024",
+    "role": "Lead Developer, System Architect",
+    "description": "A museum management simulation game released on Steam. Designed full system architecture and backend (ASP.NET), implemented gameplay systems, and led the project to launch across PC and Nintendo Switch.",
+    "thumbnail": "assets/projects/museum.jpg",
+    "platforms": ["Windows", "macOS", "Linux", "Nintendo Switch"],
+    "tags": ["Godot", "GDScript", "ASP.NET Core", "System Design"],
+    "links": [
+      { "label": "Steam", "url": "https://store.steampowered.com/app/2708780/Museum_Keeper/" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "AlexanderBall: A Countryball Tale",
+    "subtitle": "Grand Strategy / RTS — Steam",
+    "company": "Red Thorn Interactive",
+    "period": "Oct 2022 — Feb 2024",
+    "role": "Lead Developer, System Architect",
+    "description": "A Play-Pause grand strategy game with 93% positive reviews on Steam. Led full development from architecture to release, combining RTS, turn-based, and strategy mechanics into a unique hybrid system.",
+    "thumbnail": "assets/projects/alexander.jpg",
+    "platforms": ["Windows", "macOS", "Linux"],
+    "tags": ["Unity", "C#", "Strategy", "System Architecture"],
+    "links": [
+      { "label": "Steam", "url": "https://store.steampowered.com/app/1944660/AlexanderBall_A_Countryball_Tale/" }
+    ],
+    "featured": true
+  },
+  {
+    "title": "Founders",
+    "subtitle": "Play-Pause Strategy RPG — In Development",
+    "company": "Red Thorn Interactive",
+    "period": "Jul 2023 — Nov 2024",
+    "role": "Lead Developer",
+    "description": "An ambitious strategy RPG inspired by Civilization. Built with advanced architecture patterns including Dependency Injection (Zenject), UniRx, UniTask, and parallel systems for scalability and performance.",
+    "thumbnail": "assets/projects/founders.jpg",
+    "platforms": ["PC"],
+    "tags": ["Unity", "C#", "Zenject", "Architecture"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/shadmanArko/Founders" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "Silent Scream",
+    "subtitle": "Horror / Stealth — Steam",
+    "company": "Brain Station 23",
+    "period": "Jul 2022 — Sep 2022",
+    "role": "Gameplay Programmer",
+    "description": "A horror-stealth game inspired by Junji Ito and Lovecraft. Developed gameplay systems and mechanics supporting stealth, AI interaction, and atmosphere-driven design.",
+    "thumbnail": "assets/projects/silent.jpg",
+    "platforms": ["Windows", "macOS", "Linux"],
+    "tags": ["Unity", "C#", "Horror", "Stealth"],
+    "links": [
+      { "label": "Steam", "url": "https://store.steampowered.com/app/1955750/SILENT_SCREAM/" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "SAFS — Small Arms Firing Simulator",
+    "subtitle": "Military VR Training System",
+    "company": "Bangladesh Navy",
+    "period": "Jan 2021 — Jul 2021",
+    "role": "Lead Unity Developer",
+    "description": "A multiplayer VR military training simulator supporting 16 users with haptic feedback (bHaptics). Built with Photon networking and deployed on HTC Vive Pro and Meta Quest 2.",
+    "thumbnail": "assets/projects/safs.jpg",
+    "platforms": ["HTC Vive Pro", "Meta Quest 2"],
+    "tags": ["Unity", "VR", "Photon", "Multiplayer"],
+    "links": [],
+    "featured": false
+  },
+  {
+    "title": "Fire Awareness VR Simulator",
+    "subtitle": "Enterprise VR Training",
+    "company": "Brain Station 23",
+    "period": "Oct 2021",
+    "role": "Lead Unity Developer",
+    "description": "A VR training simulator for fire safety and emergency response. Built using Unity XR toolkit for Meta Quest 2 with realistic interaction and scenario-based learning.",
+    "thumbnail": "assets/projects/fire.jpg",
+    "platforms": ["Meta Quest 2"],
+    "tags": ["Unity", "VR", "XR"],
+    "links": [
+      { "label": "Demo", "url": "https://www.youtube.com/watch?v=zLBzYY3aDn8" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "NOX Eternus",
+    "subtitle": "Mobile Strategy Game",
+    "company": "Brain Station 23",
+    "period": "Nov 2021 — Jan 2022",
+    "role": "Developer",
+    "description": "A mobile strategy game combining narrative and decision-making systems. Focused on gameplay implementation and delivering a polished user experience.",
+    "thumbnail": "assets/projects/nox.jpg",
+    "platforms": ["Android"],
+    "tags": ["Unity", "C#"],
+    "links": [
+      { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.ictgames.noxeterners&hl=en_US" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "Westwood Manor",
+    "subtitle": "Horror Puzzle Game",
+    "company": "Brain Station 23",
+    "period": "Sep 2021 — Dec 2021",
+    "role": "Gameplay Programmer",
+    "description": "A HDRP-based horror puzzle game featuring immersive environments and interactive gameplay systems. Focused on gameplay mechanics and player interaction.",
+    "thumbnail": "assets/projects/westwood.jpg",
+    "platforms": ["PC"],
+    "tags": ["Unity", "HDRP"],
+    "links": [
+      { "label": "Itch.io", "url": "https://brainstation23.itch.io/westwood-manor" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "Dungeon Run",
+    "subtitle": "Arcade Runner",
+    "company": "Brain Station 23",
+    "period": "Sep 2021 — Nov 2021",
+    "role": "Gameplay Programmer",
+    "description": "A fast-paced arcade runner with procedural level design and responsive controls. Implemented core gameplay systems and mechanics.",
+    "thumbnail": "assets/projects/dungeon.jpg",
+    "platforms": ["PC"],
+    "tags": ["Unity", "C#"],
+    "links": [
+      { "label": "Itch.io", "url": "https://brainstation23.itch.io/dungeonrun" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "AutoLab",
+    "subtitle": "Augmented Reality App",
+    "company": "Dreamerz Lab",
+    "period": "Jul 2019 — Dec 2019",
+    "role": "Junior Gameplay Programmer",
+    "description": "An AR-based interactive application blending real-world interaction with virtual gameplay elements. Focused on AR integration and gameplay systems.",
+    "thumbnail": "assets/projects/autolab.jpg",
+    "platforms": ["Android"],
+    "tags": ["Unity", "AR"],
+    "links": [
+      { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.dreamerzlab.autolab&hl=en_US" }
+    ],
+    "featured": false
+  },
+  {
+    "title": "Project L.I.F.E.",
+    "subtitle": "NASA Space Apps — Top 10 Global",
+    "company": "BRAC University",
+    "period": "Oct 2019",
+    "role": "Developer",
+    "description": "A VR Mars survival simulation built using NASA open data. Achieved Top 10 globally in NASA Space Apps Challenge.",
+    "thumbnail": "assets/projects/life.jpg",
+    "platforms": ["VR", "Cross-Platform"],
+    "tags": ["Unity", "VR", "NASA"],
+    "links": [
+      { "label": "Project Page", "url": "https://2019.spaceappschallenge.org/challenges/planets-near-and-far/build-planet-workshop/teams/ducks-in-disguise/project/" }
+    ],
+    "featured": false
+  }
+],
   "certificates": [
     {
       "title": "Game Development for Modern Platforms",
